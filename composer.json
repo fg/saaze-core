@@ -28,7 +28,7 @@
         "filp/whoops": "^2.9",
         "jenssegers/blade": "^1.3",
         "php-di/php-di": "^6.2",
-        "ralouphie/mimey": "^2.1",
+        "ralouphie/mimey": "^3.0",
         "spatie/yaml-front-matter": "^2.0",
         "symfony/console": "^5.1",
         "symfony/finder": "^5.1",
@@ -44,5 +44,11 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fg/mimey.git"
+        }
+    ]
 }
